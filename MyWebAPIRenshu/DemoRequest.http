@@ -1,0 +1,15 @@
+GET http://localhost:5047/todos
+###
+
+POST http://localhost:5047/todos
+content-type: application/json
+{
+    "ID" : 1,
+    "Name" : "Make Dinner",
+    "DueDate" : "2025-04-30",
+    "IsCompleted" : false
+}
+###
+
+DELETE http://localhost:5047/todos/1
+###
